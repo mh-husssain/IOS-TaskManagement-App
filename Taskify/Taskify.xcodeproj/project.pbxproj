@@ -7,211 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F45BD562BFE4A70004C316B /* TaskifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD552BFE4A70004C316B /* TaskifyApp.swift */; };
-		3F45BD582BFE4A70004C316B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD572BFE4A70004C316B /* ContentView.swift */; };
-		3F45BD5A2BFE4A70004C316B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD592BFE4A70004C316B /* Item.swift */; };
-		3F45BD5C2BFE4A73004C316B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45BD5B2BFE4A73004C316B /* Assets.xcassets */; };
-		3F45BD602BFE4A73004C316B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45BD5F2BFE4A73004C316B /* Preview Assets.xcassets */; };
-		3F45BD6A2BFE4A74004C316B /* TaskifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD692BFE4A74004C316B /* TaskifyTests.swift */; };
-		3F45BD742BFE4A74004C316B /* TaskifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD732BFE4A74004C316B /* TaskifyUITests.swift */; };
-		3F45BD762BFE4A74004C316B /* TaskifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45BD752BFE4A74004C316B /* TaskifyUITestsLaunchTests.swift */; };
+		3F3DAC2B2C061BDD00C4F201 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC2A2C061BDD00C4F201 /* FirebaseAnalytics */; };
+		3F3DAC2D2C061BDD00C4F201 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC2C2C061BDD00C4F201 /* FirebaseAnalyticsOnDeviceConversion */; };
+		3F3DAC2F2C061BDD00C4F201 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC2E2C061BDD00C4F201 /* FirebaseAnalyticsSwift */; };
+		3F3DAC312C061BDD00C4F201 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC302C061BDD00C4F201 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		3F3DAC332C061BDD00C4F201 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC322C061BDD00C4F201 /* FirebaseAppCheck */; };
+		3F3DAC352C061DDA00C4F201 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC342C061DDA00C4F201 /* FirebaseAuth */; };
+		3F3DAC372C061DDA00C4F201 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC362C061DDA00C4F201 /* FirebaseFirestore */; };
+		3F3DAC392C061DDA00C4F201 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3DAC382C061DDA00C4F201 /* FirebaseFirestoreSwift */; };
+		3F3DAC512C061F5400C4F201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DAC4A2C061F5400C4F201 /* Preview Assets.xcassets */; };
+		3F3DAC522C061F5400C4F201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DAC4C2C061F5400C4F201 /* Assets.xcassets */; };
+		3F3DAC542C061F5400C4F201 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DAC4E2C061F5400C4F201 /* Item.swift */; };
+		3F3DAC552C061F5400C4F201 /* TaskifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DAC4F2C061F5400C4F201 /* TaskifyApp.swift */; };
+		3F3DAC572C061F9200C4F201 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DAC562C061F9200C4F201 /* GoogleService-Info (1).plist */; };
+		3F3DAC5F2C0620E100C4F201 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3DAC5E2C0620E000C4F201 /* GoogleService-Info.plist */; };
+		3F3DAC652C06235B00C4F201 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DAC632C06235B00C4F201 /* IndexView.swift */; };
+		3F3DAC672C0623DD00C4F201 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DAC662C0623DC00C4F201 /* LoginView.swift */; };
+		3F3DAC692C0623F800C4F201 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DAC682C0623F800C4F201 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3F45BD662BFE4A74004C316B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F45BD4A2BFE4A6F004C316B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F45BD512BFE4A70004C316B;
-			remoteInfo = Taskify;
-		};
-		3F45BD702BFE4A74004C316B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F45BD4A2BFE4A6F004C316B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F45BD512BFE4A70004C316B;
-			remoteInfo = Taskify;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		3F45BD522BFE4A70004C316B /* Taskify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F45BD552BFE4A70004C316B /* TaskifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskifyApp.swift; sourceTree = "<group>"; };
-		3F45BD572BFE4A70004C316B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3F45BD592BFE4A70004C316B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		3F45BD5B2BFE4A73004C316B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F45BD5D2BFE4A73004C316B /* Taskify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taskify.entitlements; sourceTree = "<group>"; };
-		3F45BD5F2BFE4A73004C316B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3F45BD652BFE4A74004C316B /* TaskifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F45BD692BFE4A74004C316B /* TaskifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskifyTests.swift; sourceTree = "<group>"; };
-		3F45BD6F2BFE4A74004C316B /* TaskifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F45BD732BFE4A74004C316B /* TaskifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskifyUITests.swift; sourceTree = "<group>"; };
-		3F45BD752BFE4A74004C316B /* TaskifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F3DAC102C0612A400C4F201 /* Taskify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3DAC4A2C061F5400C4F201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F3DAC4C2C061F5400C4F201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3DAC4E2C061F5400C4F201 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F3DAC4F2C061F5400C4F201 /* TaskifyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskifyApp.swift; sourceTree = "<group>"; };
+		3F3DAC562C061F9200C4F201 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		3F3DAC5E2C0620E000C4F201 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F3DAC632C06235B00C4F201 /* IndexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		3F3DAC662C0623DC00C4F201 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F3DAC682C0623F800C4F201 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F45BD4F2BFE4A70004C316B /* Frameworks */ = {
+		3F3DAC0D2C0612A400C4F201 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD622BFE4A74004C316B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD6C2BFE4A74004C316B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3F3DAC2F2C061BDD00C4F201 /* FirebaseAnalyticsSwift in Frameworks */,
+				3F3DAC352C061DDA00C4F201 /* FirebaseAuth in Frameworks */,
+				3F3DAC2B2C061BDD00C4F201 /* FirebaseAnalytics in Frameworks */,
+				3F3DAC2D2C061BDD00C4F201 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				3F3DAC332C061BDD00C4F201 /* FirebaseAppCheck in Frameworks */,
+				3F3DAC312C061BDD00C4F201 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				3F3DAC372C061DDA00C4F201 /* FirebaseFirestore in Frameworks */,
+				3F3DAC392C061DDA00C4F201 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F45BD492BFE4A6F004C316B = {
+		3F3DAC072C0612A400C4F201 = {
 			isa = PBXGroup;
 			children = (
-				3F45BD542BFE4A70004C316B /* Taskify */,
-				3F45BD682BFE4A74004C316B /* TaskifyTests */,
-				3F45BD722BFE4A74004C316B /* TaskifyUITests */,
-				3F45BD532BFE4A70004C316B /* Products */,
+				3F3DAC502C061F5400C4F201 /* Taskify */,
+				3F3DAC112C0612A400C4F201 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F45BD532BFE4A70004C316B /* Products */ = {
+		3F3DAC112C0612A400C4F201 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F45BD522BFE4A70004C316B /* Taskify.app */,
-				3F45BD652BFE4A74004C316B /* TaskifyTests.xctest */,
-				3F45BD6F2BFE4A74004C316B /* TaskifyUITests.xctest */,
+				3F3DAC102C0612A400C4F201 /* Taskify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F45BD542BFE4A70004C316B /* Taskify */ = {
+		3F3DAC4B2C061F5400C4F201 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3F45BD552BFE4A70004C316B /* TaskifyApp.swift */,
-				3F45BD572BFE4A70004C316B /* ContentView.swift */,
-				3F45BD592BFE4A70004C316B /* Item.swift */,
-				3F45BD5B2BFE4A73004C316B /* Assets.xcassets */,
-				3F45BD5D2BFE4A73004C316B /* Taskify.entitlements */,
-				3F45BD5E2BFE4A73004C316B /* Preview Content */,
-			);
-			path = Taskify;
-			sourceTree = "<group>";
-		};
-		3F45BD5E2BFE4A73004C316B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				3F45BD5F2BFE4A73004C316B /* Preview Assets.xcassets */,
+				3F3DAC562C061F9200C4F201 /* GoogleService-Info (1).plist */,
+				3F3DAC4A2C061F5400C4F201 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3F45BD682BFE4A74004C316B /* TaskifyTests */ = {
+		3F3DAC502C061F5400C4F201 /* Taskify */ = {
 			isa = PBXGroup;
 			children = (
-				3F45BD692BFE4A74004C316B /* TaskifyTests.swift */,
+				3F3DAC642C06235B00C4F201 /* Views */,
+				3F3DAC5D2C06206300C4F201 /* Others */,
+				3F3DAC5C2C06205300C4F201 /* ViewModels */,
+				3F3DAC5B2C06203E00C4F201 /* Models */,
+				3F3DAC4B2C061F5400C4F201 /* Preview Content */,
 			);
-			path = TaskifyTests;
+			path = Taskify;
 			sourceTree = "<group>";
 		};
-		3F45BD722BFE4A74004C316B /* TaskifyUITests */ = {
+		3F3DAC5B2C06203E00C4F201 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3F45BD732BFE4A74004C316B /* TaskifyUITests.swift */,
-				3F45BD752BFE4A74004C316B /* TaskifyUITestsLaunchTests.swift */,
+				3F3DAC4E2C061F5400C4F201 /* Item.swift */,
 			);
-			path = TaskifyUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F3DAC5C2C06205300C4F201 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F3DAC5D2C06206300C4F201 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DAC5E2C0620E000C4F201 /* GoogleService-Info.plist */,
+				3F3DAC4F2C061F5400C4F201 /* TaskifyApp.swift */,
+				3F3DAC4C2C061F5400C4F201 /* Assets.xcassets */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		3F3DAC642C06235B00C4F201 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DAC632C06235B00C4F201 /* IndexView.swift */,
+				3F3DAC662C0623DC00C4F201 /* LoginView.swift */,
+				3F3DAC682C0623F800C4F201 /* RegisterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F45BD512BFE4A70004C316B /* Taskify */ = {
+		3F3DAC0F2C0612A400C4F201 /* Taskify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F45BD792BFE4A74004C316B /* Build configuration list for PBXNativeTarget "Taskify" */;
+			buildConfigurationList = 3F3DAC202C0612A900C4F201 /* Build configuration list for PBXNativeTarget "Taskify" */;
 			buildPhases = (
-				3F45BD4E2BFE4A70004C316B /* Sources */,
-				3F45BD4F2BFE4A70004C316B /* Frameworks */,
-				3F45BD502BFE4A70004C316B /* Resources */,
+				3F3DAC0C2C0612A400C4F201 /* Sources */,
+				3F3DAC0D2C0612A400C4F201 /* Frameworks */,
+				3F3DAC0E2C0612A400C4F201 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Taskify;
+			packageProductDependencies = (
+				3F3DAC2A2C061BDD00C4F201 /* FirebaseAnalytics */,
+				3F3DAC2C2C061BDD00C4F201 /* FirebaseAnalyticsOnDeviceConversion */,
+				3F3DAC2E2C061BDD00C4F201 /* FirebaseAnalyticsSwift */,
+				3F3DAC302C061BDD00C4F201 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				3F3DAC322C061BDD00C4F201 /* FirebaseAppCheck */,
+				3F3DAC342C061DDA00C4F201 /* FirebaseAuth */,
+				3F3DAC362C061DDA00C4F201 /* FirebaseFirestore */,
+				3F3DAC382C061DDA00C4F201 /* FirebaseFirestoreSwift */,
+			);
 			productName = Taskify;
-			productReference = 3F45BD522BFE4A70004C316B /* Taskify.app */;
+			productReference = 3F3DAC102C0612A400C4F201 /* Taskify.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3F45BD642BFE4A74004C316B /* TaskifyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F45BD7C2BFE4A74004C316B /* Build configuration list for PBXNativeTarget "TaskifyTests" */;
-			buildPhases = (
-				3F45BD612BFE4A74004C316B /* Sources */,
-				3F45BD622BFE4A74004C316B /* Frameworks */,
-				3F45BD632BFE4A74004C316B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F45BD672BFE4A74004C316B /* PBXTargetDependency */,
-			);
-			name = TaskifyTests;
-			productName = TaskifyTests;
-			productReference = 3F45BD652BFE4A74004C316B /* TaskifyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3F45BD6E2BFE4A74004C316B /* TaskifyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F45BD7F2BFE4A74004C316B /* Build configuration list for PBXNativeTarget "TaskifyUITests" */;
-			buildPhases = (
-				3F45BD6B2BFE4A74004C316B /* Sources */,
-				3F45BD6C2BFE4A74004C316B /* Frameworks */,
-				3F45BD6D2BFE4A74004C316B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F45BD712BFE4A74004C316B /* PBXTargetDependency */,
-			);
-			name = TaskifyUITests;
-			productName = TaskifyUITests;
-			productReference = 3F45BD6F2BFE4A74004C316B /* TaskifyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F45BD4A2BFE4A6F004C316B /* Project object */ = {
+		3F3DAC082C0612A400C4F201 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					3F45BD512BFE4A70004C316B = {
+					3F3DAC0F2C0612A400C4F201 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					3F45BD642BFE4A74004C316B = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 3F45BD512BFE4A70004C316B;
-					};
-					3F45BD6E2BFE4A74004C316B = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 3F45BD512BFE4A70004C316B;
 					};
 				};
 			};
-			buildConfigurationList = 3F45BD4D2BFE4A6F004C316B /* Build configuration list for PBXProject "Taskify" */;
+			buildConfigurationList = 3F3DAC0B2C0612A400C4F201 /* Build configuration list for PBXProject "Taskify" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,89 +183,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F45BD492BFE4A6F004C316B;
-			productRefGroup = 3F45BD532BFE4A70004C316B /* Products */;
+			mainGroup = 3F3DAC072C0612A400C4F201;
+			packageReferences = (
+				3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3F3DAC112C0612A400C4F201 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F45BD512BFE4A70004C316B /* Taskify */,
-				3F45BD642BFE4A74004C316B /* TaskifyTests */,
-				3F45BD6E2BFE4A74004C316B /* TaskifyUITests */,
+				3F3DAC0F2C0612A400C4F201 /* Taskify */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F45BD502BFE4A70004C316B /* Resources */ = {
+		3F3DAC0E2C0612A400C4F201 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F45BD602BFE4A73004C316B /* Preview Assets.xcassets in Resources */,
-				3F45BD5C2BFE4A73004C316B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD632BFE4A74004C316B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD6D2BFE4A74004C316B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3F3DAC522C061F5400C4F201 /* Assets.xcassets in Resources */,
+				3F3DAC572C061F9200C4F201 /* GoogleService-Info (1).plist in Resources */,
+				3F3DAC5F2C0620E100C4F201 /* GoogleService-Info.plist in Resources */,
+				3F3DAC512C061F5400C4F201 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F45BD4E2BFE4A70004C316B /* Sources */ = {
+		3F3DAC0C2C0612A400C4F201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F45BD582BFE4A70004C316B /* ContentView.swift in Sources */,
-				3F45BD5A2BFE4A70004C316B /* Item.swift in Sources */,
-				3F45BD562BFE4A70004C316B /* TaskifyApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD612BFE4A74004C316B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F45BD6A2BFE4A74004C316B /* TaskifyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F45BD6B2BFE4A74004C316B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F45BD762BFE4A74004C316B /* TaskifyUITestsLaunchTests.swift in Sources */,
-				3F45BD742BFE4A74004C316B /* TaskifyUITests.swift in Sources */,
+				3F3DAC542C061F5400C4F201 /* Item.swift in Sources */,
+				3F3DAC692C0623F800C4F201 /* RegisterView.swift in Sources */,
+				3F3DAC652C06235B00C4F201 /* IndexView.swift in Sources */,
+				3F3DAC672C0623DD00C4F201 /* LoginView.swift in Sources */,
+				3F3DAC552C061F5400C4F201 /* TaskifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3F45BD672BFE4A74004C316B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F45BD512BFE4A70004C316B /* Taskify */;
-			targetProxy = 3F45BD662BFE4A74004C316B /* PBXContainerItemProxy */;
-		};
-		3F45BD712BFE4A74004C316B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F45BD512BFE4A70004C316B /* Taskify */;
-			targetProxy = 3F45BD702BFE4A74004C316B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		3F45BD772BFE4A74004C316B /* Debug */ = {
+		3F3DAC1E2C0612A900C4F201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,16 +278,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		3F45BD782BFE4A74004C316B /* Release */ = {
+		3F3DAC1F2C0612A900C4F201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,211 +335,147 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3F45BD7A2BFE4A74004C316B /* Debug */ = {
+		3F3DAC212C0612A900C4F201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Taskify/Taskify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Taskify/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = Taskify;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..Taskify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3F45BD7B2BFE4A74004C316B /* Release */ = {
+		3F3DAC222C0612A900C4F201 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Taskify/Taskify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Taskify/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_CFBundleDisplayName = Taskify;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..Taskify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3F45BD7D2BFE4A74004C316B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..TaskifyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taskify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taskify";
-			};
-			name = Debug;
-		};
-		3F45BD7E2BFE4A74004C316B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..TaskifyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taskify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taskify";
-			};
-			name = Release;
-		};
-		3F45BD802BFE4A74004C316B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..TaskifyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Taskify;
-			};
-			name = Debug;
-		};
-		3F45BD812BFE4A74004C316B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "H-K-Co..TaskifyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Taskify;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F45BD4D2BFE4A6F004C316B /* Build configuration list for PBXProject "Taskify" */ = {
+		3F3DAC0B2C0612A400C4F201 /* Build configuration list for PBXProject "Taskify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F45BD772BFE4A74004C316B /* Debug */,
-				3F45BD782BFE4A74004C316B /* Release */,
+				3F3DAC1E2C0612A900C4F201 /* Debug */,
+				3F3DAC1F2C0612A900C4F201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F45BD792BFE4A74004C316B /* Build configuration list for PBXNativeTarget "Taskify" */ = {
+		3F3DAC202C0612A900C4F201 /* Build configuration list for PBXNativeTarget "Taskify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F45BD7A2BFE4A74004C316B /* Debug */,
-				3F45BD7B2BFE4A74004C316B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F45BD7C2BFE4A74004C316B /* Build configuration list for PBXNativeTarget "TaskifyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F45BD7D2BFE4A74004C316B /* Debug */,
-				3F45BD7E2BFE4A74004C316B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F45BD7F2BFE4A74004C316B /* Build configuration list for PBXNativeTarget "TaskifyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F45BD802BFE4A74004C316B /* Debug */,
-				3F45BD812BFE4A74004C316B /* Release */,
+				3F3DAC212C0612A900C4F201 /* Debug */,
+				3F3DAC222C0612A900C4F201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F3DAC2A2C061BDD00C4F201 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3F3DAC2C2C061BDD00C4F201 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		3F3DAC2E2C061BDD00C4F201 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		3F3DAC302C061BDD00C4F201 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		3F3DAC322C061BDD00C4F201 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3DAC232C06155D00C4F201 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		3F3DAC342C061DDA00C4F201 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		3F3DAC362C061DDA00C4F201 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		3F3DAC382C061DDA00C4F201 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 3F45BD4A2BFE4A6F004C316B /* Project object */;
+	rootObject = 3F3DAC082C0612A400C4F201 /* Project object */;
 }

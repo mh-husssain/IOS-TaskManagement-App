@@ -2,14 +2,18 @@
 //  TaskifyApp.swift
 //  Taskify
 //
-//  Created by Kimia Jamshidi on 22/05/2024.
+//  Created by Kimia Jamshidi on 26/05/2024.
 //
 
 import SwiftUI
 import SwiftData
+import FirebaseCore
 
 @main
 struct TaskifyApp: App {
+    init(){
+        FirebaseApp.configure()
+    }
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,7 +29,7 @@ struct TaskifyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IndexView()
         }
         .modelContainer(sharedModelContainer)
     }

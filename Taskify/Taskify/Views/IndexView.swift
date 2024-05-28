@@ -2,13 +2,13 @@
 //  ContentView.swift
 //  Taskify
 //
-//  Created by Kimia Jamshidi on 22/05/2024.
+//  Created by Kimia Jamshidi on 26/05/2024.
 //
 
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct IndexView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
@@ -24,15 +24,10 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
             }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
             .toolbar {
-#if os(iOS)
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
-#endif
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
@@ -61,6 +56,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    IndexView()
         .modelContainer(for: Item.self, inMemory: true)
 }
